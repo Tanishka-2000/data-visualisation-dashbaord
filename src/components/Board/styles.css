@@ -1,0 +1,76 @@
+.rounded-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+.statics{
+    display: flex;
+    justify-content: space-around
+}
+
+.statics:nth-child(1) .rounded-icon{
+    background-color: rgba(122, 34, 255, 0.1);
+}
+
+.statics:nth-child(1) .rounded-icon .MuiSvgIcon-root{
+    fill: rgb(122, 34, 255);
+}
+
+.statics:nth-child(2) .rounded-icon{
+    background-color: rgba(34, 185, 255, 0.1);
+}
+
+.statics:nth-child(2) .rounded-icon .MuiSvgIcon-root{
+    fill: rgb(34, 185, 255);
+}
+
+.statics:nth-child(3) .rounded-icon{
+    background-color: rgba(255, 34, 34, 0.1);
+}
+
+.statics:nth-child(3) .rounded-icon .MuiSvgIcon-root{
+    fill: rgb(255, 34, 34);
+}
+
+.statics:nth-child(4) .rounded-icon{
+    background-color: rgba(33, 247, 9, 0.1);
+}
+
+.statics:nth-child(4) .rounded-icon .MuiSvgIcon-root{
+    fill: rgb(33, 247, 9);
+}
+
+.MuiPaper-root{
+    padding: 10px;
+}
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.scrollable{
+    height: 440px;
+    overflow-y: scroll;
+}
+
+.region{
+    height: 340px;
+    overflow-y: scroll;
+}
