@@ -5,6 +5,7 @@ A data-visualization dashboard.
 + [General Info](#genral-info)
 + [Technologies](#technologies)
 + [Setup](#setup)
++ [Demo](#demo)
 + [Features](#features)
 + [API](#api)
 
@@ -32,6 +33,10 @@ To run the project locally
  # run the app
  npm run dev
  ```
+
+ ## Demo
+ Here is the live working demo [https://tanishka-data-visualisation-dashboard.netlify.app/](https://tanishka-data-visualisation-dashboard.netlify.app/)
+ > Please wait for 1 minute before data is visible in charts.
 
  ## Features
  + Responsiveness
